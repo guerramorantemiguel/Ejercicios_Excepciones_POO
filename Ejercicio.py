@@ -14,5 +14,8 @@ try:
   else:
     print("El correo no es válido, acceso denegado")
   try:
+    re.search(".*@.*\..*", c)
+    if re.search(".*@.*\..*", correo):
+    print("El correo es válido, acceso permitido.")  
     
   
