@@ -8,3 +8,9 @@ class Email():
 try:
   correo = input(str('Introduzca el correo electrónico'))
   c = correo
+  re.search(".*@.*\..*", c)
+  if re.search(".*@.*\..*", correo):
+    print("El correo es válido, acceso permitido.")
+  else:
+    print("El correo no es válido, acceso denegado")
+  
