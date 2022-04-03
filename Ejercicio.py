@@ -14,12 +14,16 @@ try:
   else:
     print("El correo no es válido, acceso denegado")
   try:
+    correo = input(str('Introduzca el correo electrónico'))
+    c = correo
     re.search(".*@.*\..*", c)
     if re.search(".*@.*\..*", correo):
       print("El correo es válido, acceso permitido. ¡Bienvenido Vicente!")
     else: 
       print("La dirección de correo debe tener el siguiente formato: xxx@xxx.xx")
   elif: 
+    correo = input(str('Introduzca el correo electrónico'))
+    c = correo
     re.search(".*@.*\..*", c)
     if re.search(".*@.*\..*", correo):
       print("El correo es válido, acceso permitido. ¡Bienvenido Vicente!")
