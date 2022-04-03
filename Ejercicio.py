@@ -24,7 +24,7 @@ try:
     if re.search(".*@.*\..*", correo):
       print("El correo es válido, acceso permitido.")
     else: 
-      print("Cuenta bloqueada, posible caso de hacking")
+      print("Cuenta bloqueada, posible caso de ataque")
   
   
     
