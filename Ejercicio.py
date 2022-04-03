@@ -16,6 +16,16 @@ try:
   try:
     re.search(".*@.*\..*", c)
     if re.search(".*@.*\..*", correo):
-    print("El correo es válido, acceso permitido.")  
+      print("El correo es válido, acceso permitido.")
+    else: 
+      print("La dirección de correo debe tener el siguiente formato: xxx@xxx.xx")
+  elif: 
+    re.search(".*@.*\..*", c)
+    if re.search(".*@.*\..*", correo):
+      print("El correo es válido, acceso permitido.")
+    else: 
+      print("Cuenta bloqueada, posible caso de hacking")
+  
+  
     
   
