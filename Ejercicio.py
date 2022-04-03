@@ -5,3 +5,6 @@ class Email():
     self.correo = correo
   def __str__(self):
     return self.correo
+try:
+  correo = input(str('Introduzca el correo electrónico'))
+  c = correo
