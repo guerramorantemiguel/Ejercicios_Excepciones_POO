@@ -10,19 +10,19 @@ try:
   c = correo
   re.search(".*@.*\..*", c)
   if re.search(".*@.*\..*", correo):
-    print("El correo es válido, acceso permitido.")
+    print("El correo es válido, acceso permitido. ¡Bienvenido Vicente!")
   else:
     print("El correo no es válido, acceso denegado")
   try:
     re.search(".*@.*\..*", c)
     if re.search(".*@.*\..*", correo):
-      print("El correo es válido, acceso permitido.")
+      print("El correo es válido, acceso permitido. ¡Bienvenido Vicente!")
     else: 
       print("La dirección de correo debe tener el siguiente formato: xxx@xxx.xx")
   elif: 
     re.search(".*@.*\..*", c)
     if re.search(".*@.*\..*", correo):
-      print("El correo es válido, acceso permitido.")
+      print("El correo es válido, acceso permitido. ¡Bienvenido Vicente!")
     else: 
       print("Cuenta bloqueada, posible caso de ataque")
   
